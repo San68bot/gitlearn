@@ -25,7 +25,10 @@ android {
 repositories {
     mavenCentral()
     google()
-    maven { url 'https://jitpack.io' }
+    maven {
+        url 'https://jitpack.io'
+        credentials { 'jp_d4o5556mog3lqil1q7h223ph5v' }
+    }
 }
 
 dependencies {
